@@ -23,18 +23,7 @@ return new class extends Migration
             $table->integer('expiration');
         });
     }
-
-    //Tabla Alumnos
-    Schema::create('alumnos', function (Blueprint $table) {
-        $table->id(); // campo 'id' auto incremental
-        $table->string('nombre');
-        $table->string('email')->unique();
-        $table->date('fecha_nacimiento');
-        $table->timestamps(); // agrega 'created_at' y 'updated_at'
-    });
-
-
-    /**
+     /**
      * Reverse the migrations.
      */
     public function down(): void
