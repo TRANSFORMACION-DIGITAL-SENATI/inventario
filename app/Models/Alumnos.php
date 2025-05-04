@@ -11,6 +11,7 @@ class Alumnos extends Model
 
     /**
      * The table associated with the model.
+     * Williams Roberts Jara Daza
      */
     protected $table = 'alumnos';
 
