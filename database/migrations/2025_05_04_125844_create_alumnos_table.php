@@ -8,6 +8,7 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     * Williams Roberts Jara Daza - Migrate
      */
     public function up(): void
     {
