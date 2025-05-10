@@ -6,6 +6,19 @@
         <title>Proyecto Inventaario</title>
     </head>
     <body>
-        <h1>Mi Proyecto Inventario</h1>
+        <h1>Mis Proyectos</h1>
+        <br>
+        <ul>
+            <li>
+                <h2>
+                    <a href="{{ route('ecuacion.index') }}">Ecuación</a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a href="#">Matriz</a>
+                </h2>
+            </li>
+        </ul>
     </body>
 </html>
